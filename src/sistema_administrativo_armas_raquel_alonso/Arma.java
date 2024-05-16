@@ -72,9 +72,10 @@ public abstract class Arma {
         return "EN USO".equals(estado) && (calibre >= 9);
     };
     
+    
     public String toString() {
-        return "Arma [Policia=" + policia + ", Cantidad Municiones=" + municiones + ", Alcance=" + alcanceMetros +
-                ", Marca=" + marca + ", Calibre=" + calibre + ", Estado=" + estado + "]";
+        return "Arma [Policia= " + policia + ", Cantidad Municiones= " + municiones + ", Alcance= " + alcanceMetros +
+                ", Marca= " + marca + ", Calibre= " + calibre + ", Estado= " + estado + "]";
     }
     
     

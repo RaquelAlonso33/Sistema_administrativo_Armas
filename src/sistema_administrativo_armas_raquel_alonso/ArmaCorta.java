@@ -39,7 +39,7 @@ public class ArmaCorta extends Arma {
 
     @Override
     public String toString() {
-        return "ArmaCorta [EsAutomatica=" + automatica + ", " + super.toString() + "]";
+        return "ArmaCorta [EsAutomatica= " + automatica + ", " + super.toString() + "]";
     }
             
             
