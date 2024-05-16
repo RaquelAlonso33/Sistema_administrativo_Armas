@@ -1,12 +1,12 @@
 
 package sistema_administrativo_armas_raquel_alonso;
 
-public abstract class Policia {
+public class Policia {
     //Atributos protected solo para los hijos
     
-    protected String nombre;
-    protected String apellido;
-    protected int legajo;
+    private String nombre;
+    private String apellido;
+    private int legajo;
     
     //Constructores
 
@@ -19,5 +19,23 @@ public abstract class Policia {
         this.legajo = legajo;
     }
     
+    // Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public int getLegajo() {
+        return legajo;
+    }
+
+    
+    @Override
+    public String toString() {
+        return "Policia [Nombre=" + nombre + ", Apellido=" + apellido + ", Legajo=" + legajo + "]";
+    }
     
 }
